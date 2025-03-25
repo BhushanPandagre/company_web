@@ -37,6 +37,7 @@ import AllSections from "./pages/AllSections";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Team from "./pages/Team";
+import Careers from "./pages/Careers";
 
 
 const App = () => (
@@ -51,6 +52,7 @@ const App = () => (
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/team" element={<Team />} />
+      <Route path="/careers" element={<Careers />} />
  
     </Routes>
     <Footer />
